@@ -1,0 +1,3 @@
+1;Pedro Osvaldo;TI;2500.98
+2;Geraldo Bruno;Tech Lead;4300.95
+3;Raphael Pedro Leme;Dev Junior;2900.34
