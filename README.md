@@ -29,51 +29,6 @@ Projeto final da disciplina **Programação de Soluções Computacionais**, com 
 * Java 11 ou superior
 * Terminal, prompt de comando ou IDE com suporte a execução de arquivos Java
 
-## ▶️ Como Compilar e Executar
-
-### 1. Compilar os arquivos
-
-Acesse a pasta `src/` no terminal:
-
-```bash
-cd src
-javac *.java
-```
-
-### 2. Executar o programa
-
-```bash
-java Main
-```
-
-## 📦 Como Gerar o Executável `.jar`
-
-1. Compile os arquivos:
-
-```bash
-javac src/*.java
-```
-
-2. Crie o arquivo `manifest.txt` com o seguinte conteúdo:
-
-```
-Main-Class: Main
-```
-
-> ⚠️ Lembre-se de adicionar uma quebra de linha no final do arquivo.
-
-3. Gere o `.jar`:
-
-```bash
-jar cfm app.jar manifest.txt -C src/ .
-```
-
-4. Execute o `.jar`:
-
-```bash
-java -jar app.jar
-```
-
 ## ✅ Validações Implementadas
 
 * Nome não pode ser vazio
@@ -91,7 +46,3 @@ java -jar app.jar
 * **Raphael Silva Brito** — [GitHub](https://github.com/CapGyb)
 * **Lorraynne Silva** — [GitHub](https://github.com/LorraynneSilva)
 * **Vitoria Borges** — [GitHub](https://github.com/vitoriaborges38)
-
----
-
-> "Código limpo é código que funciona e se explica sozinho."
